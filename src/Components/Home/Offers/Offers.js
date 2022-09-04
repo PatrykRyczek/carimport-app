@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Section from "./Section";
-import { a3, a4, ford, dodge, x5, camaro } from "../../images";
+import { a3, a4, ford, dodge, x5, camaro } from "../../../images";
 
 export const Offers = () => {
   return (
@@ -60,4 +60,5 @@ export const Offers = () => {
 
 const Container = styled.div`
   display: flex;
+  background-color: antiquewhite;
 `;

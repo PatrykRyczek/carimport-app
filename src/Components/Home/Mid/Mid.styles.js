@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../images/mid-photo.png";
+import img from "../../../images/mid-photo.png";
 
 export const Container = styled.div`
   background-color: #50d8d7;

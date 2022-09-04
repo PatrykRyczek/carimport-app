@@ -16,8 +16,8 @@ export const Info = () => {
         <p>
           Jesteśmy jednym z wiodących na polskim rynku importerów aut, motocykli
           i quadów z terenu USA oraz Kanady. Za pośrednictwem naszej strony
-          internetowej Usaimport.pl otrzymasz kompleksową pomoc w sprowadzeniu
-          samochodu ze Stanów Zjednoczonych.
+          internetowej otrzymasz kompleksową pomoc w sprowadzeniu samochodu ze
+          Stanów Zjednoczonych.
         </p>
         <br />
         <p>

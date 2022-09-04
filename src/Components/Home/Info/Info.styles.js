@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import flag from "../../images/flag.jpg";
+import flag from "../../../images/flag.jpg";
 
 export const Container = styled.div`
   max-width: 80% vw;

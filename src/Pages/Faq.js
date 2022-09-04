@@ -1,7 +1,7 @@
 import React from "react";
 
 function Faq() {
-  return <div>Faq</div>;
+  return <div></div>;
 }
 
 export default Faq;
