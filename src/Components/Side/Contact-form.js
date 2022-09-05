@@ -9,24 +9,40 @@ function Contactform() {
       </Header>
       <Form>
         <form>
-          <input type="text" name="name" placeholder="Imię i nazwisko" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Imię i nazwisko"
+            required
+          />
           <br />
-          <input type="email" name="email" placeholder="E-mail" />
+          <input type="email" name="email" placeholder="E-mail" required />
           <br />
-          <input type="text" name="topic" placeholder="Temat" />
+          <input type="text" name="topic" placeholder="Temat" required />
+          <br />
+          <input
+            type="tel"
+            name="phone"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+            minlength="9"
+            maxlength="9"
+            placeholder="Numer Telefonu"
+            required
+          />
           <br />
           <textarea
             name="your-message"
             placeholder="Treść wiadomości"
             cols="60"
             rows="10"
+            required
           />
           <br />
-          <input type="checkbox" id="terms" name="terms" />
+          <input type="checkbox" id="terms" name="terms" required />
           <label for="terms">
             Wyrażam zgodę na przetwarzanie moich danych osobowych w celu
             kontaktu w sprawie złożonego zapytania.Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. cum.
+            consectetur adipisicing elit.
           </label>
           <br />
           <input type="submit" name="submit" value="Wyślij" />
@@ -39,10 +55,9 @@ function Contactform() {
 export default Contactform;
 
 const Container = styled.div`
-  margin: auto;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   display: flex;
   height: 80vh;
@@ -51,12 +66,12 @@ const Container = styled.div`
 
 const Header = styled.div`
   padding-top: 50px;
-  justify-content: center;
   width: 100%;
 `;
 
 const Form = styled.div`
   max-width: 30%;
+
   input,
   textarea {
     margin: 10px 0;
@@ -74,7 +89,8 @@ const Form = styled.div`
   }
 
   input[type="text"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="tel"] {
     background-color: antiquewhite;
     outline: 0;
     border-width: 0 0 2px;
