@@ -1,5 +1,5 @@
 import React from "react";
-import Faqbody from "../Components/Side/Faq-body";
+import Faqbody from "../Components/Side/Faq/Faq-body";
 
 function Faq() {
   return (
