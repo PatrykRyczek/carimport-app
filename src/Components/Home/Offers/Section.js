@@ -9,7 +9,7 @@ function Section({ title, year, price, engine, milage, backgroundIMG }) {
           {/* dodac strzalki lewo prawo animacje najechania(przyblizenie zdjecia) 
                 moze przejscie na osobna strone i dane auto zmiana kursora*/}
           <h2>{title}</h2>
-          <img src={backgroundIMG} />
+          <img src={backgroundIMG} alt="Propozycja sprowadzenia" />
         </Split>
         <p>Szacowana cena: {price} $</p>
         <p>Rocznik: {year}</p>
@@ -42,6 +42,12 @@ const Wrap = styled.div`
   img:hover {
     cursor: pointer;
     transform: scale(1.1);
+  }
+
+  @media (max-width: 1200px) {
+    margin: 20px auto;
+    width: 80vw;
+    height: 40vh;
   }
 `;
 const ItemText = styled.div`

@@ -20,9 +20,20 @@ export const Container = styled.div`
   }
 `;
 export const LeftNav = styled.div`
-  width: 20%;
+  width: 40%;
   font-size: 2rem;
   text-transform: uppercase;
+
+  @media (max-width: 1200px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 820px) {
+    font-size: 1.25rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 1rem;
+  }
 `;
 
 export const RightNav = styled.div`
@@ -34,5 +45,9 @@ export const RightNav = styled.div`
     color: red;
     cursor: pointer;
     transition: 0.5s;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

@@ -41,7 +41,7 @@ export const Footer = () => {
           <li>
             <strong>Godziny otwarcia:</strong>
           </li>
-          <li>Poniedziałek - Piątek 8:00 - 16:00</li>
+          <li>Pon - Piątek - 8:00 - 16:00</li>
           <li>Sobota - 10:00 - 15:00</li>
           <li>Przed wizytą prosimy o telefon.</li>
         </ul>

@@ -61,4 +61,10 @@ export const Offers = () => {
 const Container = styled.div`
   display: flex;
   background-color: antiquewhite;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    width: 100vw;
+    height: 275vh;
+  }
 `;

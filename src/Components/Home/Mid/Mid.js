@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Motto, img } from "./Mid.styles";
+import { Container, Motto } from "./Mid.styles";
 
 export const Mid = () => {
   return (
