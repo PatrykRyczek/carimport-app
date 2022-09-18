@@ -5,7 +5,6 @@ export const Container = styled.div`
   height: 30vh;
   background-color: #ffbe7bff;
   padding-top: 40px;
-  align-items: flex-start;
   flex-wrap: wrap;
 
   h2 {
@@ -30,14 +29,13 @@ export const Container = styled.div`
     padding: 3px;
   }
 
-  strong {
+  li strong {
     display: inline-block;
     margin-bottom: 5px;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 800px) {
     height: 80vh;
-    justify-content: center;
   }
 `;
 
@@ -46,10 +44,10 @@ export const Contact = styled.div`
   justify-content: space-evenly;
   width: 33%;
 
-  @media (max-width: 1200px) {
-    padding: 0 30px;
-    flex-direction: column;
+  @media (max-width: 800px) {
     width: 100%;
+    margin: 0 33%;
+    justify-content: flex-start;
   }
 `;
 

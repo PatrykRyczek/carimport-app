@@ -24,7 +24,6 @@ export default Section;
 
 const Wrap = styled.div`
   width: 20vw;
-  height: 25vh;
   background-color: #eee;
   display: flex;
   flex-direction: row;
@@ -45,7 +44,16 @@ const Wrap = styled.div`
   }
 
   @media (max-width: 1200px) {
-    margin: 20px auto;
+    width: 25vw;
+    height: 40vh;
+  }
+
+  @media (max-width: 800px) {
+    width: 40vw;
+    height: 40vh;
+  }
+
+  @media (max-width: 600px) {
     width: 80vw;
     height: 40vh;
   }

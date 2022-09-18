@@ -16,15 +16,43 @@ export const Container = styled.div`
   @media (max-width: 1200px) {
     background-image: url(${imgS});
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 80%;
+    height: 70vh;
+  }
+
+  @media (max-width: 800px) {
+    background-image: url(${imgS});
+    background-position: center bottom;
+    background-size: 75%;
+    height: 55vh;
+  }
+
+  @media (max-width: 700px) {
+    background-image: url(${imgS});
+    background-position: center bottom;
+    background-size: 85%;
+    height: 55vh;
+  }
+
+  @media (max-width: 600px) {
+    background-image: url(${imgS});
+    background-position: center bottom;
+    background-size: 80%;
     height: 45vh;
+  }
+
+  @media (max-width: 400px) {
+    background-image: url(${imgS});
+    background-position: center bottom;
+    background-size: 100%;
+    height: 40vh;
   }
 `;
 export const Motto = styled.div`
   text-align: left;
   position: absolute;
   right: 5%;
-  top: 15%;
+  top: 10%;
 
   h1 {
     font-size: 50px;
@@ -33,16 +61,38 @@ export const Motto = styled.div`
   }
 
   @media (max-width: 1200px) {
-    position: static;
-    text-align: center;
-
     h1 {
-      margin-top: 25px;
+      margin-top: 0;
       font-size: 22px;
     }
 
     h2 {
       font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    position: static;
+    text-align: center;
+
+    h1 {
+      margin-top: 25px;
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      margin-top: 25px;
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
     }
   }
 `;

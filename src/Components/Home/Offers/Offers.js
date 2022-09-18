@@ -63,8 +63,18 @@ const Container = styled.div`
   background-color: antiquewhite;
 
   @media (max-width: 1200px) {
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100vw;
+    height: 100vh;
+  }
+
+  @media (max-width: 800px) {
+    height: 140vh;
+  }
+
+  @media (max-width: 600px) {
     height: 275vh;
   }
 `;
