@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  height: 30vh;
+  height: 25vh;
   background-color: #ffbe7bff;
   padding-top: 40px;
   flex-wrap: wrap;
@@ -34,20 +34,54 @@ export const Container = styled.div`
     margin-bottom: 5px;
   }
 
+  @media (max-width: 1200px) {
+    height: 30vh;
+  }
+
+  @media (max-width: 1000px) {
+    height: 35vh;
+  }
+
   @media (max-width: 800px) {
+    height: 70vh;
+  }
+
+  @media (max-width: 400px) {
     height: 80vh;
   }
 `;
 
 export const Contact = styled.div`
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
-  width: 33%;
+
+  @media (max-width: 800px) {
+    width: 40%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px) {
+    width: 50%;
+  }
+
+  @media (max-width: 400px) {
+    width: 80%;
+  }
+`;
+
+export const Info = styled.div`
+  display: flex;
+  width: 20%;
+
+  @media (max-width: 1000px) {
+    width: 25%;
+  }
 
   @media (max-width: 800px) {
     width: 100%;
-    margin: 0 33%;
-    justify-content: flex-start;
+    padding-bottom: 20px;
   }
 `;
 

@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 20px;
   justify-content: center;
   background-image: url(${flag});
   background-repeat: no-repeat;
@@ -43,18 +44,26 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1060px) {
-    height: 200vh;
+    height: 225vh;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
 
   @media (max-width: 500px) {
-    height: 275vh;
+    height: 300vh;
   }
 
-  @media (max-width: 350px) {
-    height: 300vh;
+  @media (max-width: 400px) {
+    height: 325vh;
+  }
+
+  @media (max-width: 320px) {
+    height: 375vh;
+  }
+
+  @media (max-width: 300px) {
+    height: 400vh;
   }
 `;
 export const Header = styled.div`
@@ -86,7 +95,7 @@ export const Infobox = styled.div`
   }
 
   @media (max-width: 1200px) {
-    max-width: 28%;
+    max-width: 31%;
     height: 80%;
   }
 

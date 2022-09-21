@@ -45,6 +45,7 @@ export const LeftNav = styled.div`
     font-size: 1.25rem;
   }
   @media (max-width: 400px) {
+    width: 70%;
     font-size: 1rem;
   }
 `;

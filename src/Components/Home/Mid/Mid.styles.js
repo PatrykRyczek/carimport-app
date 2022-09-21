@@ -17,35 +17,36 @@ export const Container = styled.div`
     background-image: url(${imgS});
     background-position: center bottom;
     background-size: 80%;
-    height: 70vh;
+    height: 75vh;
   }
 
   @media (max-width: 800px) {
-    background-image: url(${imgS});
-    background-position: center bottom;
     background-size: 75%;
-    height: 55vh;
+    height: 65vh;
   }
 
   @media (max-width: 700px) {
-    background-image: url(${imgS});
-    background-position: center bottom;
-    background-size: 85%;
-    height: 55vh;
+    background-size: 80%;
+    height: 60vh;
   }
 
   @media (max-width: 600px) {
-    background-image: url(${imgS});
-    background-position: center bottom;
-    background-size: 80%;
-    height: 45vh;
+    background-size: 100%;
+    height: 50vh;
+  }
+
+  @media (max-width: 600px) {
+    background-size: 100%;
+    height: 60vh;
+  }
+
+  @media (max-width: 500px) {
+    background-size: 100%;
+    height: 55vh;
   }
 
   @media (max-width: 400px) {
-    background-image: url(${imgS});
-    background-position: center bottom;
-    background-size: 100%;
-    height: 40vh;
+    height: 45vh;
   }
 `;
 export const Motto = styled.div`
@@ -72,9 +73,6 @@ export const Motto = styled.div`
   }
 
   @media (max-width: 1000px) {
-    position: static;
-    text-align: center;
-
     h1 {
       margin-top: 25px;
       font-size: 24px;
@@ -83,6 +81,10 @@ export const Motto = styled.div`
     h2 {
       font-size: 20px;
     }
+  }
+  @media (max-width: 800px) {
+    position: static;
+    text-align: center;
   }
 
   @media (max-width: 600px) {

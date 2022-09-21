@@ -309,6 +309,30 @@ export const Container = styled.div`
   h1 {
     margin: 15px 0;
   }
+
+  @media (max-width: 1400px) {
+    height: 110vh;
+  }
+
+  @media (max-width: 1000px) {
+    padding-top: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 160vh;
+  }
+
+  @media (max-width: 800px) {
+    height: 175vh;
+  }
+
+  @media (max-width: 500px) {
+    height: 200vh;
+  }
+
+  @media (max-width: 400px) {
+    padding-top: 50px;
+    height: 225vh;
+  }
 `;
 
 const Left = styled.div`
@@ -351,6 +375,39 @@ const Left = styled.div`
     max-width: 150px;
     padding: 5px 10px;
   }
+
+  @media (max-width: 1400px) {
+    height: 90vh;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1200px) {
+    height: 100vh;
+    font-size: 14px;
+  }
+
+  @media (max-width: 1000px) {
+    height: 75vh;
+    width: 50%;
+  }
+
+  @media (max-width: 800px) {
+    height: 80vh;
+    width: 70%;
+    font-size: 13px;
+  }
+
+  @media (max-width: 500px) {
+    height: 95vh;
+    font-size: 12px;
+    width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    height: 120vh;
+    font-size: 12px;
+    width: 80%;
+  }
 `;
 
 const Right = styled.div`
@@ -360,6 +417,39 @@ const Right = styled.div`
   justify-content: space-between;
   height: 70vh;
   width: 30%;
+
+  @media (max-width: 1400px) {
+    height: 90vh;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1400px) {
+    height: 100vh;
+    font-size: 14px;
+  }
+
+  @media (max-width: 1000px) {
+    height: 80vh;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  @media (max-width: 800px) {
+    width: 70%;
+    height: 90vh;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    height: 120vh;
+    justify-content: space-evenly;
+    font-size: 12px;
+    width: 80%;
+  }
 `;
 
 const Up = styled.div`
@@ -386,13 +476,42 @@ const Up = styled.div`
   p {
     margin: 10px 0;
   }
+
+  @media (max-width: 1400px) {
+    height: 50vh;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1200px) {
+    height: 55vh;
+    font-size: 15px;
+  }
+
+  @media (max-width: 1000px) {
+    height: 40vh;
+    font-size: 13px;
+  }
+
+  @media (max-width: 800px) {
+    height: 45vh;
+    font-size: 13px;
+  }
+
+  @media (max-width: 500px) {
+    height: 50vh;
+  }
+
+  @media (max-width: 400px) {
+    height: 60vh;
+    font-size: 13px;
+  }
 `;
 
 const Down = styled.div`
   background-color: #ffa351ff;
   height: 25vh;
   width: 100%;
-  border-radius: 20%;
+  border-radius: 5%;
 
   span {
     font-size: 24px;
@@ -415,5 +534,25 @@ const Down = styled.div`
   button:hover {
     background-color: aquamarine;
     color: black;
+  }
+
+  @media (max-width: 1400px) {
+    height: 35vh;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1400px) {
+    padding: 10px 0;
+    height: 35vh;
+    font-size: 15px;
+  }
+
+  @media (max-width: 1000px) {
+    height: 30vh;
+    font-size: 13px;
+  }
+
+  @media (max-width: 500px) {
+    height: 35vh;
   }
 `;
