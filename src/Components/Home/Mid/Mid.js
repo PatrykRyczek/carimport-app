@@ -5,7 +5,6 @@ export const Mid = () => {
   return (
     <Container>
       <Motto>
-        {/* zrobic animacje */}
         <h1>
           Kupimy <br /> i podstawimy
         </h1>

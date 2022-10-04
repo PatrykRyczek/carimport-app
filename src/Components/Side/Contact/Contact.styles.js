@@ -8,6 +8,18 @@ export const Container = styled.div`
   display: flex;
   height: 80vh;
   background-color: antiquewhite;
+
+  @media (max-width: 1300px) {
+    height: 125vh;
+  }
+
+  @media (max-width: 600px) {
+    height: 150vh;
+  }
+
+  @media (max-width: 400px) {
+    height: 150vh;
+  }
 `;
 
 export const Header = styled.div`
@@ -56,5 +68,21 @@ export const Form = styled.div`
   input[type="submit"]:hover {
     color: white;
     background-color: black;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 50%;
+  }
+
+  @media (max-width: 800px) {
+    max-width: 60%;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    max-width: 80%;
   }
 `;

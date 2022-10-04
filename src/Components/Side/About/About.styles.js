@@ -7,6 +7,30 @@ export const Container = styled.div`
   display: flex;
   height: 100vh;
   background-color: antiquewhite;
+
+  @media (max-width: 1200px) {
+    height: 130vh;
+  }
+
+  @media (max-width: 1000px) {
+    height: 175vh;
+  }
+
+  @media (max-width: 800px) {
+    height: 185vh;
+  }
+
+  @media (max-width: 600px) {
+    height: 190vh;
+  }
+
+  @media (max-width: 500px) {
+    height: 225vh;
+  }
+
+  @media (max-width: 400px) {
+    height: 300vh;
+  }
 `;
 
 export const About = styled.div`
@@ -21,6 +45,10 @@ export const About = styled.div`
     text-transform: uppercase;
     padding: 50px 0;
   }
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 export const Img = styled.div`
@@ -31,8 +59,35 @@ export const Img = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media (max-width: 1000px) {
+    margin: 25px auto;
+    width: 80%;
+    height: 600px;
+  }
+
+  @media (max-width: 800px) {
+    height: 500px;
+  }
+
+  @media (max-width: 600px) {
+    height: 400px;
+  }
+
+  @media (max-width: 500px) {
+    height: 350px;
+  }
+
+  @media (max-width: 400px) {
+    height: 250px;
+  }
 `;
 
 export const Description = styled.div`
   width: 40%;
+
+  @media (max-width: 1000px) {
+    padding: 0 50px;
+    width: 100%;
+  }
 `;

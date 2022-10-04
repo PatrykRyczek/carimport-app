@@ -43,7 +43,7 @@ export const Container = styled.div`
     height: 100vh;
   }
 
-  @media (max-width: 1060px) {
+  @media (max-width: 1200px) {
     height: 225vh;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -76,7 +76,7 @@ export const Header = styled.div`
     color: white;
   }
 
-  @media (max-width: 1060px) {
+  @media (max-width: 1200px) {
     text-align: center;
     font-size: 16px;
   }
@@ -95,11 +95,6 @@ export const Infobox = styled.div`
   }
 
   @media (max-width: 1200px) {
-    max-width: 31%;
-    height: 80%;
-  }
-
-  @media (max-width: 1060px) {
     margin: 20px auto;
     max-width: 80%;
     height: 40%;

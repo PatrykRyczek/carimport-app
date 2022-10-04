@@ -6,8 +6,6 @@ function Section({ title, year, price, engine, milage, backgroundIMG }) {
     <Wrap>
       <ItemText>
         <Split>
-          {/* dodac strzalki lewo prawo animacje najechania(przyblizenie zdjecia) 
-                moze przejscie na osobna strone i dane auto zmiana kursora*/}
           <h2>{title}</h2>
           <img src={backgroundIMG} alt="Propozycja sprowadzenia" />
         </Split>
