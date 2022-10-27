@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 export const Container = styled.div`
   min-height: 60px;
