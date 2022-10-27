@@ -54,11 +54,30 @@ export const Motto = styled.div`
   position: absolute;
   right: 5%;
   top: 10%;
+  animation: 2s anim-lineUp ease-out 1;
 
   h1 {
     font-size: 50px;
     text-transform: uppercase;
     color: #aa0018;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
 
   @media (max-width: 1200px) {

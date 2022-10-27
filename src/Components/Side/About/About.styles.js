@@ -9,19 +9,19 @@ export const Container = styled.div`
   background-color: antiquewhite;
 
   @media (max-width: 1200px) {
-    height: 130vh;
+    height: 150vh;
   }
 
   @media (max-width: 1000px) {
-    height: 175vh;
+    height: 180vh;
   }
 
-  @media (max-width: 800px) {
-    height: 185vh;
+  @media (max-width: 700px) {
+    height: 190vh;
   }
 
   @media (max-width: 600px) {
-    height: 190vh;
+    height: 210vh;
   }
 
   @media (max-width: 500px) {
@@ -29,7 +29,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 400px) {
-    height: 300vh;
+    height: 275vh;
   }
 `;
 
@@ -66,11 +66,11 @@ export const Img = styled.div`
     height: 600px;
   }
 
-  @media (max-width: 800px) {
-    height: 500px;
+  @media (max-width: 900px) {
+    height: 450px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     height: 400px;
   }
 
@@ -87,7 +87,7 @@ export const Description = styled.div`
   width: 40%;
 
   @media (max-width: 1000px) {
-    padding: 0 50px;
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
   }
 `;
