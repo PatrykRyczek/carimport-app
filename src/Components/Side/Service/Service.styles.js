@@ -54,7 +54,7 @@ export const Header = styled.div`
 `;
 
 export const Infobox = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5%;
   padding: 30px;
   margin: 20px;
@@ -92,7 +92,7 @@ export const Contact = styled.div`
     color: white;
     height: 50px;
     width: 250px;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0;
     padding: 8px;
     transition: 0.3s;

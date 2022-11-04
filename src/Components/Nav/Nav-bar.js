@@ -44,27 +44,35 @@ export const NavBar = () => {
           <ul>
             <li>
               <Link to="/uslugi">
-                <span>Nasze uslugi</span>
+                <span onClick={() => setBurgerStatus(!burgerStatus)}>
+                  Nasze uslugi
+                </span>
               </Link>
             </li>
             <li>
               <Link to="/kalkulator">
-                <span>Kalkulator</span>
+                <span onClick={() => setBurgerStatus(!burgerStatus)}>
+                  Kalkulator
+                </span>
               </Link>
             </li>
             <li>
               <Link to="/faq">
-                <span>FAQ</span>
+                <span onClick={() => setBurgerStatus(!burgerStatus)}>FAQ</span>
               </Link>
             </li>
             <li>
               <Link to="/o-nas">
-                <span>O Nas</span>
+                <span onClick={() => setBurgerStatus(!burgerStatus)}>
+                  O Nas
+                </span>
               </Link>
             </li>
             <li>
               <Link to="/kontakt">
-                <span>Kontakt</span>
+                <span onClick={() => setBurgerStatus(!burgerStatus)}>
+                  Kontakt
+                </span>
               </Link>
             </li>
           </ul>

@@ -53,12 +53,17 @@ export const Form = styled.div`
     outline: 0;
     border-width: 0 0 2px;
     border-color: black;
+    transition: 0.15s linear;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus {
+    border-color: #3599ff;
   }
 
   input[type="submit"] {
     cursor: pointer;
     font-size: 18px;
-
     background-color: white;
     color: black;
     text-transform: uppercase;

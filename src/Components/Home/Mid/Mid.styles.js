@@ -57,7 +57,7 @@ export const Motto = styled.div`
   animation: 2s anim-lineUp ease-out 1;
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #aa0018;
   }
@@ -83,22 +83,22 @@ export const Motto = styled.div`
   @media (max-width: 1200px) {
     h1 {
       margin-top: 0;
-      font-size: 22px;
+      font-size: 20px;
     }
 
     h2 {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   @media (max-width: 1000px) {
     h1 {
       margin-top: 25px;
-      font-size: 24px;
+      font-size: 22px;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   @media (max-width: 800px) {
