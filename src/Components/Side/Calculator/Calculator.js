@@ -36,8 +36,12 @@ function Calculator() {
 
   const handleChangeInput = (e) => {
     const value = e.target.value;
-    setEngine(3.1);
     setInputValue(value);
+  };
+
+  const handleChangeRadioOption = (e) => {
+    const value = e.target.value;
+    setEngine(value);
   };
 
   const auctionCost = Math.round(parseInt(inputValue) * 0.08);
@@ -255,8 +259,7 @@ function Calculator() {
               type="radio"
               name="engine"
               value="3.1"
-              checked
-              onChange={(e) => setEngine(e.target.value)}
+              onChange={handleChangeRadioOption}
             />
             <label for="below"> Silnik poniżej 2.0L akcyza 3.1%</label>
             <br />
@@ -264,7 +267,7 @@ function Calculator() {
               type="radio"
               name="engine"
               value="18.6"
-              onChange={(e) => setEngine(e.target.value)}
+              onChange={handleChangeRadioOption}
             />
             <label for="above"> Silnik powyżej 2.0L akcyza 18.6%</label>
             <br />
